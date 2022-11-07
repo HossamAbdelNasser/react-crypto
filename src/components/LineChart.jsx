@@ -17,7 +17,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
   }
 
   for (let i = 0; i < coinHistory?.data?.history.length; i++) {
-    coinTimestamp[i] = moment.unix(coinTimestamp[i]).format("Do MMM YY, h:m a");
+    coinTimestamp[i] = moment.unix(coinTimestamp[i]).format("MMM Do YY, h:m a");
   }
 
   const data = {
