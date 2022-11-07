@@ -8,7 +8,7 @@ import {
   FundOutlined,
   MenuOutlined,
 } from "@ant-design/icons";
-import icon from "../images/icon2.png";
+import icon from "../images/icon.png";
 
 const Navbar = () => {
   return (
